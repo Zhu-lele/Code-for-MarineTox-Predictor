@@ -1,7 +1,7 @@
-MarineTox-Predictor
+**MarineTox-Predictor**
 
 
-Project Structure
+**Project Structure**
 config.py - Model configuration and hyperparameters
 
 dataset_utils.py - Dataset processing and graph construction
@@ -17,7 +17,7 @@ train_eval_manager.py - Training loops and model evaluation
 vis_utils.py - Visualization of molecular attention weights
 
 
-Quick Start
+**Quick Start**
 1. Prepare Data
 Format your CSV file with columns: smiles, group (train/val/test), and toxicity labels.
 
@@ -38,5 +38,5 @@ args['batch_size'] = 128
 Run the training script (main training file not included in provided code).
 
 
-Supported Tasks
+**Supported Tasks**
 38 aquatic toxicity endpoints including acute/chronic tests for fish, crustaceans, and algae.
