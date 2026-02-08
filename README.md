@@ -21,7 +21,7 @@ vis_utils.py - Visualization of molecular attention weights
 **Quick Start**
 
 1. Prepare Data
-Format your CSV file with columns: smiles, group (train/val/test), and toxicity labels.
+Format your Excel file with columns: smiles, group (train/val/test), and toxicity labels.
 
 2. Build Graph Dataset
 python
